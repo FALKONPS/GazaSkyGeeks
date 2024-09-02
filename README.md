@@ -1,8 +1,12 @@
-# Web Development
+# 90s Style Portfolio
 
-This repository is a part of my coursework at GSG.
+This project is part of the coursework at GazaSkyGeeks Training on web development
 
-## Contents
+**Feature**
 
-- **Note Folder**: includes all the notes I’ve taken during the course.
-- **Exercise Folder**: Contains the official exercises.
+- Pure HTML
+- No CSS/JS
+
+> [!NOTE]
+> Some elements are marked as deprecated and are not supported, but they work fine and have been tested on multiple browsers.
+> The style of the code is inspired by old-school websites.
