@@ -58,13 +58,22 @@
         <div>
           <form action="" method="post">
             <label for="sender">Name:</label>
-            <input type="text" id="sender" name="sender" value="" required />
+            <input
+              type="text"
+              placeholder="Alex"
+              id="sender"
+              name="sender"
+              value=""
+              required
+            />
             <br />
             <br />
             <label for="email">Email:</label>
 
             <input
               type="text"
+              placeholder="example@domain.com"
+              pattern=".+@.+\.com"
               id="email"
               name="email"
               value=""
@@ -74,7 +83,12 @@
             <br />
             <br />
             <label for="message">Message:</label>
-            <textarea name="message" id="message" required></textarea>
+            <textarea
+              name="message"
+              placeholder="Your message"
+              id="message"
+              required
+            ></textarea>
             <br />
             <br />
             <input type="submit" />
